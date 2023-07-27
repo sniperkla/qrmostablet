@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Myorder</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: Myorder;
+		--web-view-id: Myorder;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: Myorder;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Myorder {
+		position: absolute;
+		width: 1180px;
+		height: 820px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Myorder;
+		--web-view-id: Myorder;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#ID80_ {
+		position: absolute;
+		width: 1180px;
+		height: 823px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: Checkbill.html;
+		cursor: pointer;
+	}
+</style>
+<script id="applicationScript" type="text/javascript" src="js/Myorder.js"></script>
+</head>
+<body>
+<div id="Myorder">
+	<img onclick="application.goToTargetView(event)" id="ID80_" src="images/ID80_.png" srcset="images/ID80_.png 1x, images/ID80_@2x.png 2x">
+		
+</div>
+</body>
+</html>
